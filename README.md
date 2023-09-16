@@ -51,13 +51,21 @@ npm init
 Luego dar el comando el siguiente comando para instalar los siguientes paquetes: 
 
 npm i dotenv
+
 npm i express
+
 npm i morgan
+
 npm i pg
+
 npm i pg-hstore
+
 npm i pino
+
 npm i pino-pretty
+
 npm i sequelize
+
 
 En la terminal del VSC , ir a la carpta src y luego dar el siguiente comando para levantar el servidor Express en el puerto 3000
 
@@ -70,6 +78,7 @@ Server is listening on http://localhost: 3000
 Instalar Postman en su computadora y usando los diferentes metodos (POST, GET, PUT y DELETE ) en Postman probar las siguientes rutas de la aplicacion:
 
 PRUEBA DE LA APLICACION CON USUARIOS
+
 
 POST http://localhost:3000/api/usuarios/
 
@@ -93,6 +102,7 @@ GET http://localhost:3000/api/usuarios/all/categorias/all/productos/all
 
 PRUEBA DE LA APLICACION CON CATEGORIAS
 
+
 POST http://localhost:3000/api/categorias/
 
 GET http://localhost:3000/api/categorias/
@@ -110,6 +120,7 @@ GET http://localhost:3000/api/categorias/all/productos/all
 
 
 PRUEBA DE LA APLICACION CON PRODUCTOS
+
 
 POST http://localhost:3000/api/productos/
 
