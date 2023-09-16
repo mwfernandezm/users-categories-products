@@ -10,7 +10,7 @@ async function main() {
 
   const PORT = process.env.PORT;
   app.listen(PORT);
-  console.log("Server is listening on", PORT);
+  console.log("Server is listening on http://localhost:", PORT);
 
   logger.info(`Server on port ${PORT}`);
   logger.error("Server on port ");
