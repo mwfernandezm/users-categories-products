@@ -72,34 +72,55 @@ Instalar Postman en su computadora y usando los diferentes metodos (POST, GET, P
 PRUEBA DE LA APLICACION CON USUARIOS
 
 POST http://localhost:3000/api/usuarios/
+
 GET http://localhost:3000/api/usuarios/
+
 GET http://localhost:3000/api/usuarios/:id
+
 PUT http://localhost:3000/api/usuarios/:id
+
 DELETE http://localhost:3000/api/usuarios/:id
+
 GET http://localhost:3000/api/usuarios/:id/categorias
+
 GET http://localhost:3000/api/usuarios/all/categorias/all
+
 GET http://localhost:3000/api/usuarios/:id/categorias/:id
+
 GET http://localhost:3000/api/usuarios/all/categorias/all/productos/all
+
 
 
 PRUEBA DE LA APLICACION CON CATEGORIAS
 
 POST http://localhost:3000/api/categorias/
+
 GET http://localhost:3000/api/categorias/
+
 GET http://localhost:3000/api/categorias/:id
+
 PUT http://localhost:3000/api/categorias/:id
+
 DELETE http://localhost:3000/api/categorias/:id
+
 GET http://localhost:3000/api/categorias/:id/productos
+
 GET http://localhost:3000/api/categorias/all/productos/all
+
 
 
 PRUEBA DE LA APLICACION CON PRODUCTOS
 
 POST http://localhost:3000/api/productos/
+
 GET http://localhost:3000/api/productos/
-GET http://localhost:3000/api/productos/1
-PUT http://localhost:3000/api/productos/1
-DELETE http://localhost:3000/api/productos/1
+
+GET http://localhost:3000/api/productos/:id
+
+PUT http://localhost:3000/api/productos/:id
+
+DELETE http://localhost:3000/api/productos/:id
+
 
 
 
